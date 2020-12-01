@@ -25,3 +25,10 @@ path to `phpcbf` as well.
 
 Then you'll have to specify the coding standard. Navigate to **Editor > Inspections > PHP > Quality tools > PHP_CodeSniffer validation > Options > Coding standard**.
 Chose the preferred coding standard from the options section.
+
+## Credits
+
+This package is heavily inspired by
+
+* [dekode/coding-standards](https://packagist.org/packages/dekode/coding-standards)
+* [infinum/eightshift-coding-standards](https://packagist.org/packages/infinum/eightshift-coding-standards)
