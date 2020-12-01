@@ -12,6 +12,8 @@ Copy and modify the sample configuration file.
 cp vendor/mediebruket/wp-coding-standards/phpcs.xml.dist.sample phpcs.xml.dist
 ```
 
+More about [Customizable sniff properties](https://github.com/WordPress/WordPress-Coding-Standards/wiki/Customizable-sniff-properties)
+
 ## Usage
 
 Check manually by running PHPCS from command line and specify the coding standard:
