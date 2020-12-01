@@ -2,9 +2,14 @@
 
 ## Installation
 
-In project
 ```bash
 composer require mediebruket/wp-coding-standards --dev
+```
+
+Copy and modify the sample configuration file.
+
+```bash
+cp vendor/mediebruket/wp-coding-standards/phpcs.xml.dist.sample phpcs.xml.dist
 ```
 
 ## Usage
