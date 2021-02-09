@@ -4,8 +4,6 @@
     "type": "phpcodesniffer-standard",
     "require": {
 		"php": "^7.3",
-        "wp-coding-standards/wpcs": "^2.3",
-        "phpcompatibility/phpcompatibility-wp": "^2.1",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0"
     },
     "license": "MIT"

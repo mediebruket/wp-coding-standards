@@ -7,30 +7,4 @@
 
 	<file>.</file>
 
-	<!--
-	Additional custom properties
-	Adjust the values of these properties to fit you needs.
-	For information on additional custom properties available, check out
-	the wiki:
-	https://github.com/WordPress/WordPress-Coding-Standards/wiki/Customizable-sniff-properties
-	-->
-		<config name="minimum_supported_wp_version" value="5.5"/>
-
-		<rule ref="WordPress.WP.I18n">
-			<properties>
-				<property name="text_domain" type="array">
-					<element value="my-textdomain"/>
-					<element value="library-textdomain"/>
-				</property>
-			</properties>
-		</rule>
-
-		<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
-			<properties>
-				<property name="prefixes" type="array">
-					<element value="my_prefix"/>
-				</property>
-			</properties>
-		</rule>
-
 </ruleset>
