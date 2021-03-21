@@ -20,5 +20,11 @@
 	<config name="testVersion" value="7.3-"/>
 	<rule ref="PSR12"/>
 
+	<!-- Require short array syntax -->
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+
+	<!-- Forbids whitespace before semicolons, e.g. doStuff() ; -->
+	<rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
+
 </ruleset>
 
